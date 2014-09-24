@@ -5,6 +5,7 @@ SCTP stress tools
 
 Tool to create a large number of persistent SCTP associations
 
+==========
 
 Build :
 
@@ -12,6 +13,7 @@ Build :
 	
 	gcc -o sctp_client sctp_client.c
 
+==========
 
 Usage :
 
@@ -43,6 +45,7 @@ usage: ./sctp_client -p port -n num_conn -r remote_host
       -d                  : debug 1 or nodebug 0
       
 
+==========
 
 Example :
 
@@ -57,4 +60,4 @@ Initiating 1000 SCTP associations to 192.168.0.1 and sending chunks of 2048 byte
 
 Done
 
-
+==========
